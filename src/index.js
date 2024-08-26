@@ -1,10 +1,9 @@
-let userName = prompt("What's your name?")
+let userName = prompt("What's your name?");
+let userAge = prompt("How old are you?");
+let welcomeMessage = `Hello ${userName}, you are ${userAge} years old.`;
 
-let age = prompt("How old are you?")
+alert(welcomeMessage);
 
-let welcomeMessage = "Hello " + userName + ", you are " + age + " years old"
+let ageInFiveYears = Number(userAge) + 5;
 
-alert(welcomeMessage)
-
-let ageInFiveYears = Number(age) + 5
-alert("In five years, you will be " + ageInFiveYears)
+alert(`In five years, you will be ${ageInFiveYears}.`);
